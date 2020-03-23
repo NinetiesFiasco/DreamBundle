@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+  <title>Dream bundle</title>
+  <meta charset="utf-8">
+  <% for (var css in htmlWebpackPlugin.files.css) {  %>
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[css] %>"/>
+  <% } %>
+  <% for (var js in htmlWebpackPlugin.files.js) {  %>
+    <script src="<%= htmlWebpackPlugin.files.js[js] %>"></script>
+  <% } %>
+</head>
+<body>
+  <div id="app"></div>
+</body>

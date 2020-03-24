@@ -1,7 +1,7 @@
 {
-  "name": "bundle",
+  "name": "Sample",
   "version": "1.0.0",
-  "description": "Bundle React ReactDOM React-Router Bootstrap jQuery Popper",
+  "description": "Sample",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --config ./build/webpack.dev.conf.js",
